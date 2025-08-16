@@ -7,7 +7,7 @@ Built with **Python, scikit-learn, Streamlit**, and deployed on **Heroku** (comi
 
 ---
 
-## ✨ Features
+##  Features
 - Preprocesses input text (lowercasing, tokenization, stopword removal, stemming).
 - Uses **TF-IDF vectorization** for feature extraction.
 - Trained with **Multinomial Naive Bayes** (best-performing model in experiments).
@@ -16,7 +16,7 @@ Built with **Python, scikit-learn, Streamlit**, and deployed on **Heroku** (comi
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Python 3.x**
 - **Pandas / NumPy** – Data handling
 - **NLTK** – Text preprocessing
@@ -27,4 +27,10 @@ Built with **Python, scikit-learn, Streamlit**, and deployed on **Heroku** (comi
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
+- ├── app.py # Streamlit app
+├── SMS_SPAM.ipynb # Notebook for training and experimentation
+├── model.pkl # Trained MultinomialNB model
+├── vectorizer.pkl # Saved TF-IDF vectorizer
+├── requirements.txt # Dependencies
+└── README.md # Project documentation

@@ -28,9 +28,9 @@ Built with **Python, scikit-learn, Streamlit**, and deployed on **Heroku** (comi
 ---
 
 ##  Project Structure
-- ├── app.py # Streamlit app
-├── SMS_SPAM.ipynb # Notebook for training and experimentation
-├── model.pkl # Trained MultinomialNB model
-├── vectorizer.pkl # Saved TF-IDF vectorizer
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+- app.py # Streamlit app
+-  SMS_SPAM.ipynb # Notebook for training and experimentation
+- model.pkl # Trained MultinomialNB model
+- vectorizer.pkl # Saved TF-IDF vectorizer
+- requirements.txt # Dependencies
+- README.md # Project documentation
